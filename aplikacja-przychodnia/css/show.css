@@ -1,0 +1,84 @@
+body {
+    width: 100%;
+    height: 100vh;
+}
+
+.goback {
+    display: block;
+    position: fixed;
+    top: 30px;
+    left: 30px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #00d2d3;
+    color: #fff;
+    font-size: 30px;
+}
+
+.goback:hover {
+    box-shadow: 0px 0px 15px 2px rgba(200, 214, 229, 1);
+    color: #c8d6e5;
+}
+
+#container {
+    background-image: url("../images/dot-grid.webp");
+    width: 100%;
+    height: 100%;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+}
+
+.bigtitle {
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    color: #fff;
+}
+
+h3 {margin-top: 20px;}
+
+.box1, .box2 {
+    border-radius: 10px;
+    background-color: #00d2d3;
+    padding: 20px;
+    color: #fff;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.box1 {margin-top: 140px;}
+.box2 {margin-top: 30px;}
+
+.box1 input[type=submit], .box2 input[type=submit]{
+    padding: 8px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    background-color: #fff;
+    margin: 20px auto;
+
+}
+
+input[type=text], input[type=date] {
+    padding: 8px 10px;
+    font-size: 18px;
+    border-radius: 5px;
+    border: none;
+}
+
+table, td {
+    border: 2px solid #fff;
+    border-collapse: collapse;
+    padding: 10px;
+    text-align: center;
+    margin: 5px;
+    font-size: 18px;
+}

@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+*, *::after, *::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+}
+
+/* navigation */
+.menu{
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 80px;
+    width: 100%;
+    background-color: #2d98da;
+}
+
+.header {
+    align-self: center;
+    width: 40%;
+}
+
+.header h1 {
+    line-height: 200%;
+    font-weight: 600;
+    color: #fff;
+    letter-spacing: 2px;
+    font-size: 24px;
+    margin-right: 100px;
+    text-align: right;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 60%;
+    margin-left: 100px;
+}
+
+.nav a {
+    font-size: 18px;
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    height: 20px;
+    width: 180px;
+    text-align: center;
+}
+
+.nav a:hover{
+    color: #efefef;
+}
+
+/* main content */
+.container {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.form {
+    background-color: #74b9ff;
+    padding: 10px;
+    margin-top: 80px;
+    height: 850px;
+    width: 750px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+
+.form h1 {
+    font-weight: 500;
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.form label {
+    grid-column: 1/2;
+    margin-left: 15%;
+    text-align: center;
+
+}
+
+.form input {
+    grid-column: 2/3;
+    margin-right: 10%;
+    margin: 0 auto;
+    width: 65%;
+    padding: 8px;
+    font-size: 18px;
+    background-color: rgba(255, 255, 255, 0.75);
+    border: none;
+    border-radius: 5px;
+}
+
+.form input:focus {
+    outline: 2px solid blue;
+    background-color: #fff;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+#submit {
+    margin-top: 5%;
+    padding: 10px;
+    width: 50%;
+    cursor: pointer;
+    background-color: #fff;
+}
+
+#submit:hover {
+    background-color: #2ecc71;
+}
+
+.info {
+    width: 60%;
+    height: 70px;
+    border: dotted 3px #fff;
+    margin: 20px auto;
+}
+
+.info p {
+    text-align: center;
+    line-height: 65px;
+    color: #fff;
+    font-size: 16px;
+}   
